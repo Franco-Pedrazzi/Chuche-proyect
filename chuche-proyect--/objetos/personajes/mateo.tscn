@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpri1ktmj56ec"]
+
+[ext_resource type="Script" uid="uid://peelch2cdapf" path="res://objetos/personajes/codigo/mateo.gd" id="1_s4shh"]
+[ext_resource type="Texture2D" uid="uid://bwyb7hv4e7ukv" path="res://icon.svg" id="2_d5vvr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iywkl"]
+size = Vector2(0, 0)
+
+[node name="Mateo" type="CharacterBody2D"]
+scale = Vector2(0.36, 0.32)
+script = ExtResource("1_s4shh")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-2, -1)
+texture = ExtResource("2_d5vvr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 24)
+shape = SubResource("RectangleShape2D_iywkl")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -74)
+zoom = Vector2(3, 3)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 48)
+shape = SubResource("RectangleShape2D_iywkl")
