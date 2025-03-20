@@ -1,0 +1,20 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742422833
+evilNPC.gd::GDScript::-1::1742341375::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::3980238573653568857::1742332789::1742333215::1::::<><>::
+::res://mundos/::1742332789
+::res://mundos/mundo guiso/::1742341569
+nivel_0.tscn::PackedScene::2006332070131089936::1742341569::0::1::::<><>::uid://dnjekoa24v2cs::::res://sprites/mundo 0/5.png<>uid://cpri1ktmj56ec::::res://objetos/personajes/mateo.tscn<>uid://rk6tkiihhapc::::res://objetos/personajes/evilGodottscn.tscn
+::res://objetos/::1742332789
+::res://objetos/personajes/::1742341569
+evilGodottscn.tscn::PackedScene::1215770814212151848::1742341569::0::1::::<><>::res://evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
+mateo.tscn::PackedScene::5861301165502615622::1742341569::0::1::::<><>::res://objetos/personajes/codigo/mateo.gd<>uid://bwyb7hv4e7ukv::::res://icon.svg<>res://objetos/personajes/vidas.gd
+vidas.gd::GDScript::-1::1742340763::0::1::::<>HBoxContainer<>::
+::res://objetos/personajes/codigo/::1742341533
+mateo.gd::GDScript::-1::1742341533::0::1::::<>CharacterBody2D<>::
+::res://sprites/::1742332789
+::res://sprites/characters/::1742332789
+::res://sprites/characters/mundo 0/::1742333216
+evil godot.jpeg::CompressedTexture2D::4687265848426351193::1742332789::1742333215::1::::<><>::
+::res://sprites/mundo 0/::1742333216
+5.png::CompressedTexture2D::8090557880663645850::1742332789::1742333216::1::::<><>::

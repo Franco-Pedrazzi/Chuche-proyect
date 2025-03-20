@@ -1,0 +1,6 @@
+AnimationPlayer
+CollisionShape2D
+TextureRect
+HBoxContainer
+Control
+StaticBody2D
