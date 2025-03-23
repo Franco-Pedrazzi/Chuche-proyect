@@ -1,0 +1,22 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742565087
+icon.svg::CompressedTexture2D/CompressedTexture2D::3980238573653568857::1742491819::1742491902::1::::<><><>0<>0<>a2dd9fab7a868c6623cc26c0141ba21c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://mundos/::1742491819
+::res://mundos/mundo guiso/::1742566701
+nivel_0.tscn::PackedScene::2006332070131089936::1742566701::0::1::::<><><>0<>0<><>::uid://dnjekoa24v2cs::::res://sprites/mundo 0/5.png<>uid://cpri1ktmj56ec::::res://objetos/personajes/mateo.tscn<>uid://rk6tkiihhapc::::res://objetos/personajes/evilGodottscn.tscn
+::res://objetos/::1742491819
+::res://objetos/personajes/::1742566858
+evilGodottscn.tscn::PackedScene::1215770814212151848::1742566701::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/personajes/codigo/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
+mateo.tscn::PackedScene::5861301165502615622::1742566701::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/personajes/codigo/mateo.gd<>uid://bwyb7hv4e7ukv::::res://icon.svg<>uid://bfcbu6prktj4e::::res://objetos/personajes/codigo/vidas.gd
+shooter.tscn::PackedScene::4261749671282747594::1742566858::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/personajes/codigo/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
+::res://objetos/personajes/codigo/::1742566287
+evilNPC.gd::GDScript::1376893130151912406::1742566053::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mateo.gd::GDScript::1061352794380623323::1742566287::0::1::::<>CharacterBody2D<><>0<>0<><>::
+vidas.gd::GDScript::2741591742444691354::1742563797::0::1::::<>HBoxContainer<><>0<>0<><>::
+::res://sprites/::1742491819
+::res://sprites/characters/::1742491819
+::res://sprites/characters/mundo 0/::1742566885
+evil godot.jpeg::CompressedTexture2D/CompressedTexture2D::4687265848426351193::1742491819::1742491902::1::::<><><>0<>0<>6c2e01e6048721340773fd6d43f1465c<>res://.godot/imported/evil godot.jpeg-40741123f26915328e632ce377eade08.ctex::
+shooter.png::CompressedTexture2D::5257748178427980451::1742566885::1742566885::1::::<><><>0<>0<>4d0c97d89ee222b885412230b065b5de<>res://.godot/imported/shooter.png-34460b01a6c53a5f5827490a2bd4f5c1.ctex::
+::res://sprites/mundo 0/::1742491902
+5.png::CompressedTexture2D/CompressedTexture2D::8090557880663645850::1742491819::1742491902::1::::<><><>0<>0<>302779f9793785b0a5b65ddf6a3d917a<>res://.godot/imported/5.png-22ccc776ebbe2b0b165fa1d205c98a83.ctex::
