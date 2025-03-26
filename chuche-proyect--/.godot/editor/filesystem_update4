@@ -1,8 +1,6 @@
-res://objetos/personajes/mateo.tscn
-res://objetos/personajes/evilGodottscn.tscn
 res://mundos/mundo guiso/nivel_0.tscn
-res://evilNPC.gd
-res://objetos/personajes/codigo/mateo.gd
-res://objetos/personajes/vidas.gd
-res://objetos/personajes/codigo/evilNPC.gd
-res://objetos/personajes/shooter.tscn
+res://objetos/characters/evilNpc/evilGodottscn.tscn
+res://objetos/characters/mateo/mateo.tscn
+res://objetos/characters/shooter/shooter.tscn
+res://objetos/items/bullet/bullet.tscn
+res://objetos/characters/mateo/mateo.gd

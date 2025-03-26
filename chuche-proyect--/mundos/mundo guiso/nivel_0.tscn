@@ -1,9 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://3t484pnhsnsy"]
+[gd_scene load_steps=6 format=3 uid="uid://3t484pnhsnsy"]
 
 [ext_resource type="Texture2D" uid="uid://dnjekoa24v2cs" path="res://sprites/mundo 0/5.png" id="1_qrxap"]
-[ext_resource type="PackedScene" uid="uid://cpri1ktmj56ec" path="res://objetos/personajes/mateo.tscn" id="2_gxecd"]
-[ext_resource type="PackedScene" uid="uid://rk6tkiihhapc" path="res://objetos/personajes/evilGodottscn.tscn" id="3_gxecd"]
-[ext_resource type="PackedScene" uid="uid://b1yonn763q8be" path="res://objetos/personajes/shooter.tscn" id="4_x1hqg"]
+[ext_resource type="PackedScene" uid="uid://cpri1ktmj56ec" path="res://objetos/characters/mateo/mateo.tscn" id="2_gxecd"]
+[ext_resource type="PackedScene" uid="uid://rk6tkiihhapc" path="res://objetos/characters/evilNpc/evilGodottscn.tscn" id="3_gxecd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qnqe0"]
 size = Vector2(1250.15, 3.19486)
@@ -17,18 +16,13 @@ size = Vector2(20, 122)
 position = Vector2(699, 281)
 texture = ExtResource("1_qrxap")
 
-[node name="6" type="Sprite2D" parent="."]
-position = Vector2(699, 281)
-texture = ExtResource("1_qrxap")
-
 [node name="Mateo" parent="." instance=ExtResource("2_gxecd")]
-position = Vector2(12, 333)
+position = Vector2(13, 333)
 scale = Vector2(0.360002, 0.320002)
 
-[node name="EvilGodot" parent="." instance=ExtResource("3_gxecd")]
-position = Vector2(535, 338)
-
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 8
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(492.584, 239)
@@ -44,5 +38,5 @@ shape = SubResource("RectangleShape2D_qnqe0")
 position = Vector2(-126, 336)
 shape = SubResource("RectangleShape2D_gxecd")
 
-[node name="EvilGodot2" parent="." instance=ExtResource("4_x1hqg")]
-position = Vector2(766, 344)
+[node name="EvilGodot" parent="." instance=ExtResource("3_gxecd")]
+position = Vector2(256, 335)
