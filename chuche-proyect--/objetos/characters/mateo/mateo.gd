@@ -20,9 +20,6 @@ func _physics_process(delta):
 		velocity.y = directionY* SPEED
 	elif notStop:
 		velocity.y = move_toward(velocity.y, 0, SPEED)
-	if stop==false:
-		move=move.normalized()*SPEED
-		move=move_and_collide(move)	
 	move_and_slide()
 
 
@@ -35,11 +32,9 @@ func _on_interaction_area_body_entered(body):
 				await get_tree().create_timer(0.27).timeout
 			if stop==false:
 				lives-=1
-				var distanceX=(position.x-body.position.x)
-				var distanceY=(position.y-body.position.y)
-				var directionX=distanceX/distanceX
-				var directionY=distanceY/distanceY
-				move=position.direction_to(Vector2i(position.x+directionX*distanceX,position.y+directionY*distanceY))
+				var angle=(body.position - position).angle()
+				var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual
+				velocity = direction * SPEED*-1
 				
 				notStop=false
 				await get_tree().create_timer(0.25).timeout

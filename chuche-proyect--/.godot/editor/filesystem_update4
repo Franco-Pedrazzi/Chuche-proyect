@@ -4,3 +4,4 @@ res://objetos/characters/mateo/mateo.tscn
 res://objetos/characters/shooter/shooter.tscn
 res://objetos/items/bullet/bullet.tscn
 res://objetos/characters/mateo/mateo.gd
+res://objetos/characters/shooter/shooter.gd

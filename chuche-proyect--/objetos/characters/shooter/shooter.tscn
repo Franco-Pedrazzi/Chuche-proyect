@@ -39,7 +39,7 @@ resource_name = "default"
 
 [sub_resource type="Animation" id="Animation_rjjjd"]
 resource_name = "pegar"
-length = 0.2
+length = 0.21
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -79,7 +79,7 @@ _data = {
 size = Vector2(34, 30.7624)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gm2mo"]
-radius = 11.5274
+radius = 15.3485
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_q1p3w"]
 radius = 80.0
@@ -110,7 +110,7 @@ scale = Vector2(0.84, 0.720001)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionZone"]
 position = Vector2(0, 1)
-scale = Vector2(-16.3302, -18.8295)
+scale = Vector2(-16.3302, -23.6495)
 shape = SubResource("CircleShape2D_gm2mo")
 
 [node name="InteractionArea" type="Area2D" parent="."]
@@ -119,8 +119,7 @@ collision_layer = 2
 collision_mask = 9
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="InteractionArea"]
-position = Vector2(0, 2.42495)
-scale = Vector2(1.271, 1)
+position = Vector2(0, 1.26555)
 shape = SubResource("CircleShape2D_q1p3w")
 
 [node name="Distance" type="Area2D" parent="."]
@@ -128,10 +127,10 @@ scale = Vector2(1.03251, 1.23714)
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Distance"]
 position = Vector2(0, 2.42495)
-scale = Vector2(1.271, 1)
 shape = SubResource("CircleShape2D_q1p3w")
 
 [connection signal="body_entered" from="DetectionZone" to="." method="_on_detection_zone_body_entered"]
 [connection signal="body_entered" from="InteractionArea" to="." method="_on_interaction_area_body_entered"]
+[connection signal="body_exited" from="InteractionArea" to="." method="_on_interaction_area_body_exited"]
 [connection signal="body_entered" from="Distance" to="." method="_on_distance_body_entered"]
 [connection signal="body_exited" from="Distance" to="." method="_on_distance_body_exited"]

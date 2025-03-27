@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dnjekoa24v2cs" path="res://sprites/mundo 0/5.png" id="1_qrxap"]
 [ext_resource type="PackedScene" uid="uid://cpri1ktmj56ec" path="res://objetos/characters/mateo/mateo.tscn" id="2_gxecd"]
-[ext_resource type="PackedScene" uid="uid://rk6tkiihhapc" path="res://objetos/characters/evilNpc/evilGodottscn.tscn" id="3_gxecd"]
+[ext_resource type="PackedScene" uid="uid://b1yonn763q8be" path="res://objetos/characters/shooter/shooter.tscn" id="3_gxecd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qnqe0"]
 size = Vector2(1250.15, 3.19486)
@@ -38,5 +38,5 @@ shape = SubResource("RectangleShape2D_qnqe0")
 position = Vector2(-126, 336)
 shape = SubResource("RectangleShape2D_gxecd")
 
-[node name="EvilGodot" parent="." instance=ExtResource("3_gxecd")]
-position = Vector2(256, 335)
+[node name="Shooter" parent="." instance=ExtResource("3_gxecd")]
+position = Vector2(216, 294)
