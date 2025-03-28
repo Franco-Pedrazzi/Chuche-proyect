@@ -1,25 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743098159
+::res://::1743164695
 icon.svg::CompressedTexture2D/CompressedTexture2D::3980238573653568857::1743098143::1743098143::1::::<><><>0<>0<>a2dd9fab7a868c6623cc26c0141ba21c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://mundos/::1743098143
-::res://mundos/mundo guiso/::1743098143
-nivel_0.tscn::PackedScene::2006332070131089936::1743098143::0::1::::<><><>0<>0<><>::uid://dnjekoa24v2cs::::res://sprites/mundo 0/5.png<>uid://cpri1ktmj56ec::::res://objetos/characters/mateo/mateo.tscn<>uid://rk6tkiihhapc::::res://objetos/characters/evilNpc/evilGodottscn.tscn
+::res://mundos/mundo guiso/::1743105378
+nivel_0.tscn::PackedScene::2006332070131089936::1743105378::0::1::::<><><>0<>0<><>::uid://dnjekoa24v2cs::::res://sprites/mundo 0/5.png<>uid://cpri1ktmj56ec::::res://objetos/characters/mateo/mateo.tscn<>uid://b1yonn763q8be::::res://objetos/characters/shooter/shooter.tscn
 ::res://objetos/::1743098143
 ::res://objetos/characters/::1743098143
-::res://objetos/characters/evilNpc/::1743098143
-evilGodottscn.tscn::PackedScene::1215770814212151848::1743098143::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
-evilNPC.gd::GDScript::1376893130151912406::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://objetos/characters/mateo/::1743098143
-mateo.gd::GDScript::1061352794380623323::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
-mateo.tscn::PackedScene::5861301165502615622::1743098143::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/mateo/mateo.gd<>uid://bwyb7hv4e7ukv::::res://icon.svg<>uid://bfcbu6prktj4e::::res://objetos/characters/mateo/vidas.gd
-vidas.gd::GDScript::2741591742444691354::1743098143::0::1::::<>HBoxContainer<><>0<>0<><>::
-::res://objetos/characters/shooter/::1743098143
-shooter.gd::GDScript::1333637359770073496::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shooter.tscn::PackedScene::4261749671282747594::1743098143::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/mundo 0/shooter.png
+::res://objetos/characters/evilNpc/::1743104931
+evilGodottscn.tscn::PackedScene::1215770814212151848::1743104931::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
+evilNPC.gd::GDScript/GDScript::1376893130151912406::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://objetos/characters/mateo/::1743104931
+mateo.gd::GDScript::1061352794380623323::1743100542::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mateo.tscn::PackedScene::5861301165502615622::1743104931::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/mateo/mateo.gd<>uid://bwyb7hv4e7ukv::::res://icon.svg<>uid://bfcbu6prktj4e::::res://objetos/characters/mateo/vidas.gd
+vidas.gd::GDScript/GDScript::2741591742444691354::1743098143::0::1::::<>HBoxContainer<><>0<>0<><>::
+::res://objetos/characters/shooter/::1743104931
+shooter.gd::GDScript::1333637359770073496::1743103943::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shooter.tscn::PackedScene::4261749671282747594::1743104931::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/mundo 0/shooter.png
 ::res://objetos/items/::1743098143
-::res://objetos/items/bullet/::1743098143
-bullet.gd::GDScript::8618579253449038382::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bullet.tscn::PackedScene::6990698798113841915::1743098143::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/characters/mundo 0/items/Blue_circle.webp
+::res://objetos/items/bullet/::1743104931
+bullet.gd::GDScript/GDScript::8618579253449038382::1743098143::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bullet.tscn::PackedScene::6990698798113841915::1743104931::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/characters/mundo 0/items/Blue_circle.webp
 ::res://sprites/::1743098143
 ::res://sprites/characters/::1743098143
 ::res://sprites/characters/mundo 0/::1743098143
