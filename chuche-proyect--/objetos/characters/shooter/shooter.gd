@@ -5,6 +5,7 @@ var SPEED=2.5
 var move=Vector2.ZERO
 var scapeTime=false
 var Shooting=false
+var firstShoot=false
 
 func _physics_process(delta: float) -> void:
 	if Shooting:
@@ -13,7 +14,7 @@ func _physics_process(delta: float) -> void:
 				if jugador.lives>0:	
 					cargar()
 					Shooting=false
-					await get_tree().create_timer(2.1).timeout
+					await get_tree().create_timer(2.5).timeout
 					Shooting=true
 	if jugador!=null:
 		if scapeTime:
@@ -25,13 +26,12 @@ func _physics_process(delta: float) -> void:
 		
 		else:
 			
-			if abs(position.x-jugador.position.x)-122<1 and Shooting==false and abs(position.y-jugador.position.y)-122<1:
+			if abs(position.x-jugador.position.x)-122<1 and abs(position.y-jugador.position.y)-122<1:
 				move=Vector2.ZERO
-				animations.play("default")
+				
 			else:
 				if Shooting:
 					await get_tree().create_timer(1.5).timeout
-					Shooting=false
 				move=position.direction_to(jugador.position)
 				
 	else:
@@ -42,7 +42,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 func cargar():
-	print(Shooting)
+	print("w")
 	animations.play("pegar")
 
 
@@ -76,17 +76,21 @@ func _on_distance_body_exited(body: Node2D) -> void:
 	if body!=self and "type" in body:
 		if body.type=="jugador":
 			scapeTime=false
+			Shooting=true
 			
 
 
 func _on_interaction_area_body_entered(body: Node2D) -> void:
 	if body!=self and "type" in body:
-		if body.type=="jugador":
+		if body.type=="jugador" and !firstShoot:
 			Shooting=true
+			firstShoot=true
 
 
 func _on_interaction_area_body_exited(body: Node2D) -> void:
 	if body!=self and "type" in body:
 		if body.type=="jugador":
 			Shooting=false
+			firstShoot=false
+
 		

@@ -3,3 +3,5 @@ res://objetos/characters/evilNpc/evilGodottscn.tscn
 res://objetos/characters/mateo/mateo.tscn
 res://objetos/characters/shooter/shooter.tscn
 res://objetos/items/bullet/bullet.tscn
+res://objetos/characters/shooter/shooter.gd
+res://objetos/items/bullet/bullet.gd

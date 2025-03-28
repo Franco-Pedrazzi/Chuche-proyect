@@ -15,6 +15,4 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 func _on_interaction_area_body_entered(body: Node2D) -> void:
-	if "type" in body:
-		if body.type=="jugador":
-			queue_free()
+	queue_free()
