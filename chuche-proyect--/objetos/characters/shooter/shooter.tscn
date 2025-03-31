@@ -38,7 +38,7 @@ tracks/0/keys = {
 resource_name = "default"
 
 [sub_resource type="Animation" id="Animation_rjjjd"]
-resource_name = "pegar"
+resource_name = "Shoot"
 length = 0.21
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -70,9 +70,9 @@ tracks/1/keys = {
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_psosv"]
 _data = {
 &"RESET": SubResource("Animation_sae0v"),
+&"Shoot": SubResource("Animation_rjjjd"),
 &"caminar": SubResource("Animation_8mdte"),
-&"default": SubResource("Animation_iyvs0"),
-&"pegar": SubResource("Animation_rjjjd")
+&"default": SubResource("Animation_iyvs0")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u5x76"]

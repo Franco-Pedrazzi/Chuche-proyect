@@ -1,13 +1,20 @@
 extends CharacterBody2D
-@export var type="daño"
+@export var DamageType="daño"
 @export var action="terminada"
+@export var type="evilNpc"
 var jugador=null
 var esperar=false
 var SPEED=2.5
 var unidos=false
+var stop=false
+var lives=3
+var notStop=true
 @onready var animations=$AnimationPlayer
 var move=Vector2.ZERO
+
 func _physics_process(delta: float) -> void:
+	if lives<=0:
+		queue_free()
 	if jugador!=null and esperar==false:
 		move=position.direction_to(jugador.position)
 	else:
@@ -27,13 +34,38 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 
 
 func _on_area_2d_2_body_entered(body):
+	stop=false
+	unidos=true
 	if body==jugador:
-		animations.play("pegar")
-		esperar=true
-		unidos=true
-		await get_tree().create_timer(0.2).timeout
-		if unidos:
-			_on_area_2d_2_body_entered(body)
+		if !body.attacking:
+			animations.play("pegar")
+			esperar=true
+			unidos=true
+			await get_tree().create_timer(0.2).timeout
+			if unidos:
+				_on_area_2d_2_body_entered(body)
+
+		if body.attacking:		
+			await get_tree().create_timer(0.20).timeout
+			print("s")
+			if stop==false:
+				lives-=1
+				var angle=(body.position - position).angle()
+				var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual
+				velocity = direction * SPEED*-1
+				
+				notStop=false
+				await get_tree().create_timer(0.25).timeout
+				notStop=true
+			if lives<=0:
+				get_tree().reload_current_scene()
+				return 
+	await get_tree().create_timer(0.25).timeout
+	if unidos:
+		_on_area_2d_2_body_entered(body)
+
+
+
 func pegar():
 	action="efectivo"
 	animations.play("default")
@@ -43,4 +75,5 @@ func pegar():
 	esperar=false
 	
 func _on_interaction_area_body_exited(body: Node2D) -> void:
+	stop=true
 	unidos=false

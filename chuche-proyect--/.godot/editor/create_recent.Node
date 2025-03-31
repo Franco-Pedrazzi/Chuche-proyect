@@ -1,10 +1,10 @@
+AnimationPlayer
 TileMapLayer
 TileMap
 CollisionShape2D
 CharacterBody2D
 Area2D
 RigidBody2D
-AnimationPlayer
 TextureRect
 HBoxContainer
 Control

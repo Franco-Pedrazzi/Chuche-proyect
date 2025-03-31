@@ -1,6 +1,8 @@
 extends CharacterBody2D
 var jugador=null
 var SPEED=2.5
+@export var DamageType="dañoInsta"
+@export var type="evilNpc"
 @onready var animations=$AnimationPlayer
 var move=Vector2.ZERO
 var scapeTime=false
@@ -12,10 +14,11 @@ func _physics_process(delta: float) -> void:
 		if jugador!=null:
 			if "lives" in jugador:
 				if jugador.lives>0:	
-					cargar()
+					animations.play("Shoot")
 					Shooting=false
-					await get_tree().create_timer(2.5).timeout
-					Shooting=true
+					await get_tree().create_timer(1).timeout
+					if firstShoot==true:
+						Shooting=true
 	if jugador!=null:
 		if scapeTime:
 			var distanceX=(position.x-jugador.position.x)
@@ -41,9 +44,8 @@ func _physics_process(delta: float) -> void:
 	move=move_and_collide(move)
 	move_and_slide()
 	
-func cargar():
-	print("w")
-	animations.play("pegar")
+
+	
 
 
 	
@@ -55,7 +57,7 @@ func disparar():
 	bullet.position = position  
 	bullet.rotation = angle
 	get_parent().add_child(bullet)
-	print("bang")
+	
 
 
 func _on_detection_zone_body_entered(body: Node2D) -> void:
@@ -68,21 +70,18 @@ func _on_distance_body_entered(body: Node2D) -> void:
 	if body!=self and "type" in body:
 		if body.type=="jugador":
 			scapeTime=true
-			await get_tree().create_timer(2).timeout
-			Shooting=false
-			animations.play("caminar")
 			
 func _on_distance_body_exited(body: Node2D) -> void:
 	if body!=self and "type" in body:
 		if body.type=="jugador":
 			scapeTime=false
-			Shooting=true
 			
 
 
 func _on_interaction_area_body_entered(body: Node2D) -> void:
 	if body!=self and "type" in body:
 		if body.type=="jugador" and !firstShoot:
+			await get_tree().create_timer(1).timeout
 			Shooting=true
 			firstShoot=true
 
@@ -92,5 +91,6 @@ func _on_interaction_area_body_exited(body: Node2D) -> void:
 		if body.type=="jugador":
 			Shooting=false
 			firstShoot=false
+			
 
 		
