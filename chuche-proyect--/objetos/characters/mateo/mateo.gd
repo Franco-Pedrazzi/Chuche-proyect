@@ -38,12 +38,12 @@ func _on_interaction_area_body_entered(body):
 	unidos=true
 	if "type" in body and body!=self:
 
-				
-		if "DamageType" in body:
+		if "DamageType" in body and !attacking:
 			if body.DamageType=="daño" or body.DamageType=="dañoInsta":		
-				if body.DamageType=="daño":
+				if body.DamageType!="dañoInsta":
 					await get_tree().create_timer(0.27).timeout
-				if stop==false:
+				if stop==false and !attacking:
+					stop=true
 					lives-=1
 					var angle=(body.position - position).angle()
 					var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual

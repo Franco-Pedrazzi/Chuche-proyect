@@ -1,6 +1,6 @@
 extends CharacterBody2D
-
-@export var type="dañoInsta"
+@export var DamageType="dañoInsta"
+@export var type="bullet"
 @export var vel=Vector2i(0,0)
 @export var jugador=null
 var move=Vector2.ZERO

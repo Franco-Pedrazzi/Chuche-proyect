@@ -1,14 +1,16 @@
 extends CharacterBody2D
 var jugador=null
 var SPEED=2.5
-@export var DamageType="dañoInsta"
+@export var DamageType="null"
 @export var type="evilNpc"
 @onready var animations=$AnimationPlayer
 var move=Vector2.ZERO
 var scapeTime=false
 var Shooting=false
 var firstShoot=false
-
+var stop=false
+var lives=3
+var notStop=true
 func _physics_process(delta: float) -> void:
 	if Shooting:
 		if jugador!=null:
@@ -39,9 +41,12 @@ func _physics_process(delta: float) -> void:
 				
 	else:
 		move=Vector2.ZERO
-			
-	move=move.normalized()*SPEED
-	move=move_and_collide(move)
+	
+	if lives<=0:
+		queue_free()
+	else:
+		move=move.normalized()*SPEED
+		move=move_and_collide(move)
 	move_and_slide()
 	
 
@@ -94,3 +99,21 @@ func _on_interaction_area_body_exited(body: Node2D) -> void:
 			
 
 		
+
+
+func _on_hurt_box_body_entered(body: Node2D) -> void:
+	stop=false
+	if body==jugador:
+		await get_tree().create_timer(0.3).timeout
+		if body.attacking:				
+			if stop==false:
+				lives-=1
+				var angle=(body.position - position).angle()
+				var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual
+				velocity = direction * SPEED*-1*120
+				
+				notStop=false
+				await get_tree().create_timer(0.25).timeout
+				velocity = Vector2i(0,0)
+				await get_tree().create_timer(0.3).timeout
+				notStop=true

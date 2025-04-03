@@ -39,8 +39,8 @@ shape = SubResource("RectangleShape2D_qnqe0")
 position = Vector2(-126, 336)
 shape = SubResource("RectangleShape2D_gxecd")
 
-[node name="Shooter" parent="." instance=ExtResource("3_gxecd")]
-position = Vector2(968, 347)
-
 [node name="EvilGodot" parent="." instance=ExtResource("4_x1hqg")]
-position = Vector2(393, 351)
+position = Vector2(443, 346)
+
+[node name="Shooter" parent="." instance=ExtResource("3_gxecd")]
+position = Vector2(884, 350)

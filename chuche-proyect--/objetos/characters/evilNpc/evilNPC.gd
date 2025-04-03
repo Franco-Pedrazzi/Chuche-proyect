@@ -13,14 +13,17 @@ var notStop=true
 var move=Vector2.ZERO
 
 func _physics_process(delta: float) -> void:
-	if lives<=0:
-		queue_free()
-	if jugador!=null and esperar==false:
+
+	if jugador!=null and esperar==false and notStop:
 		move=position.direction_to(jugador.position)
 	else:
 		move=Vector2.ZERO
-	move=move.normalized()*SPEED
-	move=move_and_collide(move)
+		
+	if lives<=0:
+		queue_free()
+	else:
+		move=move.normalized()*SPEED
+		move=move_and_collide(move)
 	move_and_slide()
 	
 
@@ -37,7 +40,22 @@ func _on_area_2d_2_body_entered(body):
 	stop=false
 	unidos=true
 	if body==jugador:
-		if !body.attacking:
+		await get_tree().create_timer(0.3).timeout
+		if body.attacking:		
+			
+			if stop==false:
+				lives-=1
+				var angle=(body.position - position).angle()
+				var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual
+				velocity = direction * SPEED*-1*120
+				
+				notStop=false
+				await get_tree().create_timer(0.25).timeout
+				velocity = Vector2i(0,0)
+				await get_tree().create_timer(0.3).timeout
+				notStop=true
+
+		elif esperar:
 			animations.play("pegar")
 			esperar=true
 			unidos=true
@@ -45,21 +63,6 @@ func _on_area_2d_2_body_entered(body):
 			if unidos:
 				_on_area_2d_2_body_entered(body)
 
-		if body.attacking:		
-			await get_tree().create_timer(0.20).timeout
-			print("s")
-			if stop==false:
-				lives-=1
-				var angle=(body.position - position).angle()
-				var direction = Vector2.RIGHT.rotated(angle)  # Mueve hacia la rotación actual
-				velocity = direction * SPEED*-1
-				
-				notStop=false
-				await get_tree().create_timer(0.25).timeout
-				notStop=true
-			if lives<=0:
-				get_tree().reload_current_scene()
-				return 
 	await get_tree().create_timer(0.25).timeout
 	if unidos:
 		_on_area_2d_2_body_entered(body)
