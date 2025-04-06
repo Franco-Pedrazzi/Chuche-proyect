@@ -3,22 +3,6 @@
 [ext_resource type="Script" uid="uid://tu8h1mkwyruk" path="res://objetos/characters/evilNpc/evilNPC.gd" id="1_i2cga"]
 [ext_resource type="Texture2D" uid="uid://b71st307vtk1v" path="res://sprites/characters/mundo 0/evil godot.jpeg" id="2_rbien"]
 
-[sub_resource type="Animation" id="Animation_8mdte"]
-resource_name = "caminar"
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("../../EvilGodot:scale")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.5, 1),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [Vector2(0.189078, 0.208987), Vector2(0.189078, 0.240098), Vector2(0.189078, 0.208987)]
-}
-
 [sub_resource type="Animation" id="Animation_iyvs0"]
 resource_name = "default"
 tracks/0/type = "value"
@@ -35,7 +19,7 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_rjjjd"]
-resource_name = "pegar"
+resource_name = "attack"
 length = 0.25
 loop_mode = 1
 tracks/0/type = "value"
@@ -65,11 +49,27 @@ tracks/1/keys = {
 }]
 }
 
+[sub_resource type="Animation" id="Animation_8mdte"]
+resource_name = "walk"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../EvilGodot:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.189078, 0.208987), Vector2(0.189078, 0.240098), Vector2(0.189078, 0.208987)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_psosv"]
 _data = {
-&"caminar": SubResource("Animation_8mdte"),
+&"attack": SubResource("Animation_rjjjd"),
 &"default": SubResource("Animation_iyvs0"),
-&"pegar": SubResource("Animation_rjjjd")
+&"walk": SubResource("Animation_8mdte")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u5x76"]

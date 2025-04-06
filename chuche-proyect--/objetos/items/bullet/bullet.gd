@@ -1,12 +1,16 @@
 extends CharacterBody2D
-@export var DamageType="dañoInsta"
-@export var type="bullet"
-@export var vel=Vector2i(0,0)
-@export var jugador=null
-var move=Vector2.ZERO
-var SPEED=250
-var rot:float
-var time=3
+
+#Designa el tipo de daño
+@export var DamageType = "instantDamage"
+#Designa el tipo de cuerpo
+@export var type = "bullet"
+#Designa la velocidad
+@export var vel = Vector2i(0,0)
+#Designa si es un jugador?
+@export var player = null
+
+#Designa la velocidad
+var SPEED = 250
 
 func _physics_process(delta: float) -> void:
 	var direction = Vector2.RIGHT.rotated(rotation)  # Mueve hacia la rotación actual
@@ -15,4 +19,5 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 func _on_interaction_area_body_entered(body: Node2D) -> void:
+	#Elimina el proyectil tan pronto entra en contacto con un cuerpo
 	queue_free()
