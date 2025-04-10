@@ -1,28 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744026407
+::res://::1744307280
 icon.png::CompressedTexture2D/CompressedTexture2D::1356981152794222741::1744026383::1744026383::1::::<><><>0<>0<>730460561b90fdd19b5d64fd56967aa2<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::3980238573653568857::1743770250::1743770250::1::::<><><>0<>0<>a2dd9fab7a868c6623cc26c0141ba21c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://fonts/::1744295100
+BodgeB.ttf::FontFile/FontFile::437878458805450874::1547954471::1744295100::1::::<><><>0<>0<>e41f171676a9cbe3b09c3e844081e33c<>res://.godot/imported/BodgeB.ttf-4a7873319bca968d298490ce66fc3486.fontdata::
+BodgeI.ttf::FontFile/FontFile::2510726479323652112::1547954862::1744295100::1::::<><><>0<>0<>f5093b5e434191bed3d91f7f66e6e09f<>res://.godot/imported/BodgeI.ttf-9643d8840663ed436a3c90341c9675b5.fontdata::
+BodgeO.ttf::FontFile/FontFile::1682821447895912032::1547954452::1744295100::1::::<><><>0<>0<>a12816461e6d6dbfb379108422326945<>res://.godot/imported/BodgeO.ttf-3a333ed4982d28beb2d2c19fc54bb5b4.fontdata::
+BodgeR.ttf::FontFile/FontFile::7463240319590321180::1547954440::1744295100::1::::<><><>0<>0<>d8965f192e52314842a4c10d9e47b29a<>res://.godot/imported/BodgeR.ttf-5ea477abf00fb3010278342c338f4295.fontdata::
 ::res://mundos/::1743770250
-::res://mundos/mundo guiso/::1744031671
-nivel_0.tscn::PackedScene::2006332070131089936::1744031520::0::1::::<><><>0<>0<><>::uid://dnjekoa24v2cs::::res://sprites/mundo 0/5.png<>uid://cpri1ktmj56ec::::res://objetos/characters/rico/rico.tscn
-placeholderBG.png::CompressedTexture2D::6310161716210413953::1744031671::1744031675::1::::<><><>0<>0<>d2a1a7445e31d50fbf27d29a506a2b96<>res://.godot/imported/placeholderBG.png-433dbeff74a90dcdbf86174da3278511.ctex::
-::res://objetos/::1743770250
+::res://mundos/mundo guiso/::1744307377
+nivel_0.tscn::PackedScene::2006332070131089936::1744307377::0::1::::<><><>0<>0<><>::uid://cv5xpaojs8ebh::::res://mundos/mundo guiso/placeholderBG.png<>uid://cpri1ktmj56ec::::res://objetos/characters/rico/rico.tscn
+placeholderBG.png::CompressedTexture2D/CompressedTexture2D::6310161716210413953::1744031671::1744031675::1::::<><><>0<>0<>d2a1a7445e31d50fbf27d29a506a2b96<>res://.godot/imported/placeholderBG.png-433dbeff74a90dcdbf86174da3278511.ctex::
+::res://objetos/::1744293035
 ::res://objetos/characters/::1744026383
-::res://objetos/characters/evilNpc/::1744031520
-evilGodottscn.tscn::PackedScene::1215770814212151848::1744031520::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
-evilNPC.gd::GDScript::1376893130151912406::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://objetos/characters/rico/::1744031521
-lives.gd::GDScript::2741591742444691354::1744026383::0::1::::<>HBoxContainer<><>0<>0<><>::
-placeholderRico.png::CompressedTexture2D::6065579622856263829::1744027289::1744027294::1::::<><><>0<>0<>7d535e581cd7e3901dde0010c79a7a30<>res://.godot/imported/placeholderRico.png-722670d86f4c2005e34b0c9d032d7875.ctex::
-rico.gd::GDScript::1061352794380623323::1744031095::0::1::::<>CharacterBody2D<><>0<>0<><>::
-rico.tscn::PackedScene::5861301165502615622::1744031521::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/rico/rico.gd<>uid://csohhe8sycg02::::res://objetos/characters/rico/placeholderRico.png<>uid://bfcbu6prktj4e::::res://objetos/characters/rico/lives.gd
-::res://objetos/characters/shooter/::1744031521
-shooter.gd::GDScript::1333637359770073496::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shooter.tscn::PackedScene::4261749671282747594::1744031521::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/mundo 0/shooter.png
+::res://objetos/characters/evilNpc/::1744307377
+evilGodottscn.tscn::PackedScene::1215770814212151848::1744307377::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
+evilNPC.gd::GDScript/GDScript::1376893130151912406::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://objetos/characters/rico/::1744307377
+lives.gd::GDScript/GDScript::2741591742444691354::1744026383::0::1::::<>HBoxContainer<><>0<>0<><>::
+placeholderRico.png::CompressedTexture2D/CompressedTexture2D::6065579622856263829::1744027289::1744027294::1::::<><><>0<>0<>7d535e581cd7e3901dde0010c79a7a30<>res://.godot/imported/placeholderRico.png-722670d86f4c2005e34b0c9d032d7875.ctex::
+rico.gd::GDScript/GDScript::1061352794380623323::1744031804::0::1::::<>CharacterBody2D<><>0<>0<><>::
+rico.tscn::PackedScene::5861301165502615622::1744307377::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/rico/rico.gd<>uid://csohhe8sycg02::::res://objetos/characters/rico/placeholderRico.png<>uid://bfcbu6prktj4e::::res://objetos/characters/rico/lives.gd
+::res://objetos/characters/shooter/::1744307377
+shooter.gd::GDScript/GDScript::1333637359770073496::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shooter.tscn::PackedScene::4261749671282747594::1744307377::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/mundo 0/shooter.png
+::res://objetos/dialogue-box/::1744309143
+dialogue-box-borders-4x.png::CompressedTexture2D::6814636042361301053::1744309058::1744309147::1::::<><><>0<>0<>c465fec5d75aafb122aaa8005701524f<>res://.godot/imported/dialogue-box-borders-4x.png-3074ed682dcb098f47025932fcef59fd.ctex::
+dialogue-box-borders.png::CompressedTexture2D/CompressedTexture2D::211662627332464897::1744294408::1744294411::1::::<><><>0<>0<>7c8724e3b066cedd394f989bfb038451<>res://.godot/imported/dialogue-box-borders.png-a79ca5cdde8febd5b0a1215c2c1311b6.ctex::
+textbox.tscn::PackedScene::4184392301936081571::1744307377::0::1::::<><><>0<>0<><>::uid://dasb10lux2wr::::res://objetos/dialogue-box/dialogue-box-borders.png<>uid://deliqigmobrou::::res://fonts/BodgeR.ttf
 ::res://objetos/items/::1743770250
-::res://objetos/items/bullet/::1744031521
-bullet.gd::GDScript::8618579253449038382::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bullet.tscn::PackedScene::6990698798113841915::1744031521::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/characters/mundo 0/items/Blue_circle.webp
+::res://objetos/items/bullet/::1744307377
+bullet.gd::GDScript/GDScript::8618579253449038382::1744026383::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bullet.tscn::PackedScene::6990698798113841915::1744307377::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/characters/mundo 0/items/Blue_circle.webp
 ::res://sprites/::1743770250
 ::res://sprites/characters/::1743770250
 ::res://sprites/characters/mundo 0/::1743770250
