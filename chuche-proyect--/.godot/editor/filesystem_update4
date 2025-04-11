@@ -1,7 +1,2 @@
-res://objetos/dialogue-box/textbox.tscn
 res://mundos/mundo guiso/nivel_0.tscn
-res://objetos/characters/evilNpc/evilGodottscn.tscn
 res://objetos/characters/rico/rico.tscn
-res://objetos/characters/shooter/shooter.tscn
-res://objetos/items/bullet/bullet.tscn
-res://objetos/dialogue-box/textbox.gd
