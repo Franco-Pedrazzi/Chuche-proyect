@@ -1,2 +1,4 @@
 res://mundos/mundo guiso/nivel_0.tscn
 res://objetos/characters/rico/rico.tscn
+res://objetos/dialogue-box/textbox.tscn
+res://objetos/dialogue-box/textbox.gd
