@@ -12,6 +12,7 @@ config_version=5
 
 config/name="Chuche Project"
 config/description="EL MEJOR JUEGO DE LA HISTORIA PAPAAAAAAAAA"
+run/main_scene="uid://3t484pnhsnsy"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://tlljthmgvts4"
 

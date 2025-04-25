@@ -1,4 +1,10 @@
 res://mundos/mundo guiso/nivel_0.tscn
 res://objetos/characters/rico/rico.tscn
 res://objetos/dialogue-box/textbox.tscn
-res://objetos/dialogue-box/textbox.gd
+res://objetos/characters/rico/rico.gd
+res://objetos/characters/evilNpc/evilNPC.gd
+res://objetos/characters/rico/lives.gd
+res://mundos/Batalla/Battalla.tscn
+res://mundos/Batalla/battalla.gd
+res://interfaz/battle/action´s_buttons.tscn
+res://mundos/Batalla/buttons.gd

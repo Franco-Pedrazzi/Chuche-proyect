@@ -1,0 +1,149 @@
+[gd_scene load_steps=17 format=3 uid="uid://coc240xmtdssh"]
+
+[ext_resource type="Texture2D" uid="uid://ht67pgcioxh1" path="res://sprites/Transitions/Battel_transition.jpeg" id="1_hoypr"]
+[ext_resource type="Script" uid="uid://efwu7qb4mxmm" path="res://mundos/Batalla/battalla.gd" id="1_jc6xk"]
+[ext_resource type="Script" uid="uid://b3o3fpx5fnpnc" path="res://mundos/Batalla/buttons.gd" id="3_gmgi0"]
+[ext_resource type="Texture2D" uid="uid://ca1w3uhg8bvan" path="res://objetos/characters/rico/SpriteRico.png" id="3_onog3"]
+[ext_resource type="Texture2D" uid="uid://dg41dk5p8l3qm" path="res://sprites/menu/buttons.jpg" id="4_gmgi0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hntsm"]
+atlas = ExtResource("3_onog3")
+region = Rect2(96, 32, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sbopq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hntsm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ct7ky"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(0, 51, 97, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0kt6j"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(0, 0, 97, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6qeiw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ct7ky")
+}],
+"loop": true,
+"name": &"Select",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0kt6j")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0v7uw"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(108, 51, 97, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vsb6j"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(108, 0, 97, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bd184"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0v7uw")
+}],
+"loop": true,
+"name": &"Select",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vsb6j")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nbig0"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(214, 51, 97, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyy4h"]
+atlas = ExtResource("4_gmgi0")
+region = Rect2(214, 0, 97, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qxwhn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nbig0")
+}],
+"loop": true,
+"name": &"Select",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fyy4h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Battalla" type="Node2D"]
+script = ExtResource("1_jc6xk")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(145, 82)
+zoom = Vector2(4, 4)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 288.0
+offset_bottom = 162.0
+color = Color(0, 0, 0, 1)
+
+[node name="Rico" type="AnimatedSprite2D" parent="."]
+position = Vector2(78, 81)
+sprite_frames = SubResource("SpriteFrames_sbopq")
+
+[node name="Buttons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 19.0
+offset_top = 44.0
+offset_right = 64.0
+offset_bottom = 117.0
+script = ExtResource("3_gmgi0")
+
+[node name="Fight" type="AnimatedSprite2D" parent="Buttons"]
+position = Vector2(22.9556, 10.0461)
+scale = Vector2(0.473312, 0.528743)
+sprite_frames = SubResource("SpriteFrames_6qeiw")
+animation = &"Select"
+
+[node name="Act" type="AnimatedSprite2D" parent="Buttons"]
+position = Vector2(22.9556, 36.0461)
+scale = Vector2(0.473312, 0.55376)
+sprite_frames = SubResource("SpriteFrames_bd184")
+
+[node name="Item" type="AnimatedSprite2D" parent="Buttons"]
+position = Vector2(22.9556, 62.0461)
+scale = Vector2(0.473312, 0.522626)
+sprite_frames = SubResource("SpriteFrames_qxwhn")
+
+[node name="BattelTransition" type="Sprite2D" parent="."]
+position = Vector2(144.25, 81.25)
+scale = Vector2(1.04545, 0.882514)
+texture = ExtResource("1_hoypr")
