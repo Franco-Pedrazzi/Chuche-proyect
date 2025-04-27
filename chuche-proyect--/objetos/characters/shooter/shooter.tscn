@@ -1,7 +1,8 @@
 [gd_scene load_steps=12 format=3 uid="uid://b1yonn763q8be"]
 
 [ext_resource type="Script" uid="uid://taa2vhi8lxto" path="res://objetos/characters/shooter/shooter.gd" id="1_72hgb"]
-[ext_resource type="Texture2D" uid="uid://cg55lybvmlt0n" path="res://sprites/characters/mundo 0/shooter.png" id="2_qcgs2"]
+[ext_resource type="Texture2D" uid="uid://cg55lybvmlt0n" path="res://sprites/characters/EvilNpcs/shooter.png" id="2_qcgs2"]
+
 
 [sub_resource type="Animation" id="Animation_sae0v"]
 length = 0.001

@@ -1,8 +1,8 @@
 [gd_scene load_steps=24 format=3 uid="uid://cpri1ktmj56ec"]
 
 [ext_resource type="Script" uid="uid://peelch2cdapf" path="res://objetos/characters/rico/rico.gd" id="1_s4shh"]
-[ext_resource type="Texture2D" uid="uid://csohhe8sycg02" path="res://objetos/characters/rico/placeholderRico.png" id="2_81s6w"]
-[ext_resource type="Texture2D" uid="uid://ca1w3uhg8bvan" path="res://objetos/characters/rico/SpriteRico.png" id="2_kct6e"]
+[ext_resource type="Texture2D" uid="uid://csohhe8sycg02" path="res://sprites/characters/rico/placeholderRico.png" id="2_81s6w"]
+[ext_resource type="Texture2D" uid="uid://ca1w3uhg8bvan" path="res://sprites/characters/rico/SpriteRico.png" id="2_kct6e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kct6e"]
 atlas = ExtResource("2_kct6e")

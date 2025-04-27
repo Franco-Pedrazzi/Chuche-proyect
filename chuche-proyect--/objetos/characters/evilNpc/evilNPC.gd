@@ -36,6 +36,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 			targetPlayer = body
 			animations.play("walk")
 func _on_area_2d_2_body_entered(body):
+	Global_ToFight.EnemyName="evilNpc.jpeg"
 	get_tree().change_scene_to_file("res://mundos/Batalla/Battalla.tscn")
 
 func _on_interaction_area_body_exited(body: Node2D) -> void:

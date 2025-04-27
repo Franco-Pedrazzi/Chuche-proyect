@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ht67pgcioxh1" path="res://sprites/Transitions/Battel_transition.jpeg" id="1_hoypr"]
 [ext_resource type="Script" uid="uid://efwu7qb4mxmm" path="res://mundos/Batalla/battalla.gd" id="1_jc6xk"]
 [ext_resource type="Script" uid="uid://b3o3fpx5fnpnc" path="res://mundos/Batalla/buttons.gd" id="3_gmgi0"]
-[ext_resource type="Texture2D" uid="uid://ca1w3uhg8bvan" path="res://objetos/characters/rico/SpriteRico.png" id="3_onog3"]
+[ext_resource type="Texture2D" uid="uid://ca1w3uhg8bvan" path="res://sprites/characters/rico/SpriteRico.png" id="3_onog3"]
 [ext_resource type="Texture2D" uid="uid://dg41dk5p8l3qm" path="res://sprites/menu/buttons.jpg" id="4_gmgi0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hntsm"]
@@ -106,25 +106,29 @@ animations = [{
 script = ExtResource("1_jc6xk")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(145, 82)
-zoom = Vector2(4, 4)
+position = Vector2(156, 128)
+zoom = Vector2(2, 2)
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_right = 288.0
-offset_bottom = 162.0
+offset_left = -132.0
+offset_top = -34.0
+offset_right = 444.0
+offset_bottom = 290.0
 color = Color(0, 0, 0, 1)
 
 [node name="Rico" type="AnimatedSprite2D" parent="."]
-position = Vector2(78, 81)
+position = Vector2(34, 114)
+scale = Vector2(2.28, 2.16)
 sprite_frames = SubResource("SpriteFrames_sbopq")
 
 [node name="Buttons" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 19.0
-offset_top = 44.0
-offset_right = 64.0
-offset_bottom = 117.0
+offset_left = -124.0
+offset_top = 41.0
+offset_right = -79.0
+offset_bottom = 114.0
+scale = Vector2(2.28, 2.16)
 script = ExtResource("3_gmgi0")
 
 [node name="Fight" type="AnimatedSprite2D" parent="Buttons"]
@@ -144,6 +148,6 @@ scale = Vector2(0.473312, 0.522626)
 sprite_frames = SubResource("SpriteFrames_qxwhn")
 
 [node name="BattelTransition" type="Sprite2D" parent="."]
-position = Vector2(144.25, 81.25)
-scale = Vector2(1.04545, 0.882514)
+position = Vector2(156, 128)
+scale = Vector2(2.09455, 1.77049)
 texture = ExtResource("1_hoypr")

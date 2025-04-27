@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg55lybvmlt0n"
-path="res://.godot/imported/shooter.png-34460b01a6c53a5f5827490a2bd4f5c1.ctex"
+uid="uid://ca1w3uhg8bvan"
+path="res://.godot/imported/SpriteRico.png-ef53b38f6411171add5ad8b4724e5639.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/characters/mundo 0/shooter.png"
-dest_files=["res://.godot/imported/shooter.png-34460b01a6c53a5f5827490a2bd4f5c1.ctex"]
+source_file="res://sprites/characters/rico/SpriteRico.png"
+dest_files=["res://.godot/imported/SpriteRico.png-ef53b38f6411171add5ad8b4724e5639.ctex"]
 
 [params]
 

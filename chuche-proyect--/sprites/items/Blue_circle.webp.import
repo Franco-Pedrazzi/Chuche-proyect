@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca1w3uhg8bvan"
-path="res://.godot/imported/SpriteRico.png-9817540e9f59d45f12eadd5c5beafbb0.ctex"
+uid="uid://bv3kv31qownnj"
+path="res://.godot/imported/Blue_circle.webp-ddfe631254193dc10bd1281f444692d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://objetos/characters/rico/SpriteRico.png"
-dest_files=["res://.godot/imported/SpriteRico.png-9817540e9f59d45f12eadd5c5beafbb0.ctex"]
+source_file="res://sprites/items/Blue_circle.webp"
+dest_files=["res://.godot/imported/Blue_circle.webp-ddfe631254193dc10bd1281f444692d5.ctex"]
 
 [params]
 

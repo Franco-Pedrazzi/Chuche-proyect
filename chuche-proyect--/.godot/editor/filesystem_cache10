@@ -1,54 +1,61 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745582316
-icon.png::CompressedTexture2D/CompressedTexture2D::1356981152794222741::1744025740::1744025740::1::::<><><>0<>0<>730460561b90fdd19b5d64fd56967aa2<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-icon.svg::CompressedTexture2D/CompressedTexture2D::3980238573653568857::1743098143::1743098143::1::::<><><>0<>0<>a2dd9fab7a868c6623cc26c0141ba21c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://fonts/::1745582300
-BodgeB.ttf::FontFile/FontFile::437878458805450874::1745582300::1745582300::1::::<><><>0<>0<>e41f171676a9cbe3b09c3e844081e33c<>res://.godot/imported/BodgeB.ttf-4a7873319bca968d298490ce66fc3486.fontdata::
-BodgeI.ttf::FontFile/FontFile::2510726479323652112::1745582300::1745582300::1::::<><><>0<>0<>f5093b5e434191bed3d91f7f66e6e09f<>res://.godot/imported/BodgeI.ttf-9643d8840663ed436a3c90341c9675b5.fontdata::
-BodgeO.ttf::FontFile/FontFile::1682821447895912032::1745582300::1745582300::1::::<><><>0<>0<>a12816461e6d6dbfb379108422326945<>res://.godot/imported/BodgeO.ttf-3a333ed4982d28beb2d2c19fc54bb5b4.fontdata::
-BodgeR.ttf::FontFile/FontFile::7463240319590321180::1745582300::1745582300::1::::<><><>0<>0<>d8965f192e52314842a4c10d9e47b29a<>res://.godot/imported/BodgeR.ttf-5ea477abf00fb3010278342c338f4295.fontdata::
-::res://interfaz/::1744030356
-::res://interfaz/battle/::1744032086
-action´s_buttons.tscn::PackedScene::5522095294471150976::1744032085::0::1::::<><><>0<>0<><>::uid://dg41dk5p8l3qm::::res://sprites/menu/buttons.jpg
-Battel.tscn::PackedScene::2461547690074081597::1744032086::0::1::::<><><>0<>0<><>::uid://ckw7dqy8mthg7::::res://interfaz/battle/action´s_buttons.tscn<>res://sprites/Transitions/Pokémon Encounter Transition Green Screen.ogv
-::res://mundos/::1743098143
-::res://mundos/mundo guiso/::1745582866
-nivel_0.tscn::PackedScene::2006332070131089936::1745582866::0::1::::<><><>0<>0<><>::uid://cv5xpaojs8ebh::::res://mundos/mundo guiso/placeholderBG.png<>uid://cpri1ktmj56ec::::res://objetos/characters/rico/rico.tscn<>uid://rk6tkiihhapc::::res://objetos/characters/evilNpc/evilGodottscn.tscn
-placeholderBG.png::CompressedTexture2D/CompressedTexture2D::6310161716210413953::1745582300::1745582300::1::::<><><>0<>0<>d2a1a7445e31d50fbf27d29a506a2b96<>res://.godot/imported/placeholderBG.png-433dbeff74a90dcdbf86174da3278511.ctex::
-::res://objetos/::1745582300
-::res://objetos/characters/::1744025740
-::res://objetos/characters/evilNpc/::1745582792
-evilGodottscn.tscn::PackedScene::1215770814212151848::1745582300::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/mundo 0/evil godot.jpeg
-evilNPC.gd::GDScript::1376893130151912406::1745582792::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://objetos/characters/rico/::1745582866
-placeholderRico.png::CompressedTexture2D/CompressedTexture2D::6065579622856263829::1745582300::1745582300::1::::<><><>0<>0<>7d535e581cd7e3901dde0010c79a7a30<>res://.godot/imported/placeholderRico.png-722670d86f4c2005e34b0c9d032d7875.ctex::
-rico.gd::GDScript::1061352794380623323::1745582813::0::1::::<>CharacterBody2D<><>0<>0<><>::
-rico.tscn::PackedScene::5861301165502615622::1745582866::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/rico/rico.gd<>uid://csohhe8sycg02::::res://objetos/characters/rico/placeholderRico.png<>uid://ca1w3uhg8bvan::::res://objetos/characters/rico/SpriteRico.png
-SpriteRico.png::CompressedTexture2D/CompressedTexture2D::4827902026659364601::1745582300::1745582300::1::::<><><>0<>0<>5f3ff0ffc3978d72defa9d92a1b68901<>res://.godot/imported/SpriteRico.png-9817540e9f59d45f12eadd5c5beafbb0.ctex::
-::res://objetos/characters/shooter/::1745582295
-shooter.gd::GDScript::1333637359770073496::1744025740::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shooter.tscn::PackedScene::4261749671282747594::1745582295::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/mundo 0/shooter.png
-::res://objetos/dialogue-box/::1745582866
-dialogue-box-borders-4x.png::CompressedTexture2D/CompressedTexture2D::6814636042361301053::1745582300::1745582300::1::::<><><>0<>0<>c465fec5d75aafb122aaa8005701524f<>res://.godot/imported/dialogue-box-borders-4x.png-3074ed682dcb098f47025932fcef59fd.ctex::
-dialogue-box-borders.png::CompressedTexture2D/CompressedTexture2D::211662627332464897::1745582300::1745582300::1::::<><><>0<>0<>7c8724e3b066cedd394f989bfb038451<>res://.godot/imported/dialogue-box-borders.png-a79ca5cdde8febd5b0a1215c2c1311b6.ctex::
-textbox.gd::GDScript::2860747373811725707::1745582300::0::1::::<>CanvasLayer<><>0<>0<><>::
-textbox.tscn::PackedScene::4184392301936081571::1745582866::0::1::::<><><>0<>0<><>::uid://bg01ddr6d18ol::::res://objetos/dialogue-box/textbox.gd<>uid://deliqigmobrou::::res://fonts/BodgeR.ttf<>uid://c4dccblywo86l::::res://objetos/dialogue-box/dialogue-box-borders-4x.png
-::res://objetos/items/::1743098143
-::res://objetos/items/bullet/::1745582295
-bullet.gd::GDScript::8618579253449038382::1744025740::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bullet.tscn::PackedScene::6990698798113841915::1745582295::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/characters/mundo 0/items/Blue_circle.webp
-::res://sprites/::1744031453
-::res://sprites/characters/::1743098143
-::res://sprites/characters/mundo 0/::1743098143
-evil godot.jpeg::CompressedTexture2D/CompressedTexture2D::4687265848426351193::1743098143::1743098143::1::::<><><>0<>0<>6c2e01e6048721340773fd6d43f1465c<>res://.godot/imported/evil godot.jpeg-40741123f26915328e632ce377eade08.ctex::
-shooter.png::CompressedTexture2D/CompressedTexture2D::5257748178427980451::1743098143::1743098143::1::::<><><>0<>0<>4d0c97d89ee222b885412230b065b5de<>res://.godot/imported/shooter.png-34460b01a6c53a5f5827490a2bd4f5c1.ctex::
-::res://sprites/characters/mundo 0/items/::1743098143
-Blue_circle.webp::CompressedTexture2D/CompressedTexture2D::3918835160370396807::1743098143::1743098143::1::::<><><>0<>0<>6af8b3d9bac64740e5d3277f48ee242e<>res://.godot/imported/Blue_circle.webp-8d96236ed3a3a303c622092081e54a97.ctex::
-::res://sprites/menu/::1745582320
-buttons.jpg::CompressedTexture2D::7641846639272603364::1744029223::1745582320::1::::<><><>0<>0<>c32b20caa7e2b4557f2edb7a17f5d157<>res://.godot/imported/buttons.jpg-c61eeaea2a8839002e27e2fc3b98e3a8.ctex::
-::res://sprites/mundo 0/::1745582320
-5.png::CompressedTexture2D/CompressedTexture2D::8090557880663645850::1743098143::1743098143::1::::<><><>0<>0<>302779f9793785b0a5b65ddf6a3d917a<>res://.godot/imported/5.png-22ccc776ebbe2b0b165fa1d205c98a83.ctex::
-mapa.jpg::CompressedTexture2D::2224181469466052466::1744027125::1745582320::1::::<><><>0<>0<>877ec30698808c65ff037822ec75a39f<>res://.godot/imported/mapa.jpg-94bc05407029059f870169b8a478418c.ctex::
-::res://sprites/Transitions/::1745584175
-Battel_transition.jpeg::CompressedTexture2D::532485252195296788::1745584145::1745584177::1::::<><><>0<>0<>c34d53e1514d485f23e058d11fe493aa<>res://.godot/imported/Battel_transition.jpeg-269d10ee0417ca8a75320c5d7e201631.ctex::
-Pokémon Encounter Transition Green Screen.ogv::VideoStreamTheora::2767741790684675721::1744030731::0::1::::<><><>0<>0<><>::
+::res://::1745778716
+icon.png::CompressedTexture2D/CompressedTexture2D::1356981152794222741::1744240609::1745700101::1::::<><><>0<>0<>730460561b90fdd19b5d64fd56967aa2<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::3980238573653568857::1742491819::1742491902::1::::<><><>0<>0<>a2dd9fab7a868c6623cc26c0141ba21c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://fonts/::1745700101
+BodgeB.ttf::FontFile/FontFile::437878458805450874::1745699915::1745700101::1::::<><><>0<>0<>e41f171676a9cbe3b09c3e844081e33c<>res://.godot/imported/BodgeB.ttf-4a7873319bca968d298490ce66fc3486.fontdata::
+BodgeI.ttf::FontFile/FontFile::2510726479323652112::1745699915::1745700101::1::::<><><>0<>0<>f5093b5e434191bed3d91f7f66e6e09f<>res://.godot/imported/BodgeI.ttf-9643d8840663ed436a3c90341c9675b5.fontdata::
+BodgeO.ttf::FontFile/FontFile::1682821447895912032::1745699915::1745700101::1::::<><><>0<>0<>a12816461e6d6dbfb379108422326945<>res://.godot/imported/BodgeO.ttf-3a333ed4982d28beb2d2c19fc54bb5b4.fontdata::
+BodgeR.ttf::FontFile/FontFile::7463240319590321180::1745699915::1745700101::1::::<><><>0<>0<>d8965f192e52314842a4c10d9e47b29a<>res://.godot/imported/BodgeR.ttf-5ea477abf00fb3010278342c338f4295.fontdata::
+::res://Global/::1745776203
+Global_ToFight.gd::GDScript/GDScript::1916912190569417232::1745776203::0::1::::<>Node<><>0<>0<><>::
+::res://mundos/::1745699915
+::res://mundos/Batalla/::1745778645
+battalla.gd::GDScript::292450458590151632::1745778645::0::1::::<>Node2D<><>0<>0<><>::
+Battalla.tscn::PackedScene::5761306429839721531::1745778645::0::1::::<><><>0<>0<><>::uid://ht67pgcioxh1::::res://sprites/Transitions/Battel_transition.jpeg<>uid://efwu7qb4mxmm::::res://mundos/Batalla/battalla.gd<>uid://b3o3fpx5fnpnc::::res://mundos/Batalla/buttons.gd<>uid://ca1w3uhg8bvan::::res://sprites/characters/rico/SpriteRico.png<>uid://dg41dk5p8l3qm::::res://sprites/menu/buttons.jpg
+buttons.gd::GDScript/GDScript::4382319423632857008::1745703568::0::1::::<>Control<><>0<>0<><>::
+::res://mundos/mundo guiso/::1745778645
+nivel_0.tscn::PackedScene::2006332070131089936::1745778645::0::1::::<><><>0<>0<><>::uid://cv5xpaojs8ebh::::res://sprites/Backgrounds/placeholderBG.png<>uid://cpri1ktmj56ec::::res://objetos/characters/rico/rico.tscn<>uid://rk6tkiihhapc::::res://objetos/characters/evilNpc/evilGodottscn.tscn
+::res://objetos/::1745702943
+::res://objetos/characters/::1744240609
+::res://objetos/characters/evilNpc/::1745778716
+evilGodottscn.tscn::PackedScene::1215770814212151848::1745778716::0::1::::<><><>0<>0<><>::uid://tu8h1mkwyruk::::res://objetos/characters/evilNpc/evilNPC.gd<>uid://b71st307vtk1v::::res://sprites/characters/EvilNpcs/evilNpc.jpeg
+evilNPC.gd::GDScript/GDScript::1376893130151912406::1745776209::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://objetos/characters/rico/::1745778645
+rico.gd::GDScript/GDScript::1061352794380623323::1745699915::0::1::::<>CharacterBody2D<><>0<>0<><>::
+rico.tscn::PackedScene::5861301165502615622::1745778645::0::1::::<><><>0<>0<><>::uid://peelch2cdapf::::res://objetos/characters/rico/rico.gd<>uid://csohhe8sycg02::::res://sprites/characters/rico/placeholderRico.png<>uid://ca1w3uhg8bvan::::res://sprites/characters/rico/SpriteRico.png
+::res://objetos/characters/shooter/::1745776553
+shooter.gd::GDScript/GDScript::1333637359770073496::1744240609::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shooter.tscn::PackedScene/PackedScene::4261749671282747594::1745776553::0::1::::<><><>0<>0<><>::uid://taa2vhi8lxto::::res://objetos/characters/shooter/shooter.gd<>uid://cg55lybvmlt0n::::res://sprites/characters/EvilNpcs/shooter.png
+::res://objetos/dialogue-box/::1745703609
+dialogue-box-borders-4x.png::CompressedTexture2D/CompressedTexture2D::6814636042361301053::1745699915::1745700101::1::::<><><>0<>0<>c465fec5d75aafb122aaa8005701524f<>res://.godot/imported/dialogue-box-borders-4x.png-3074ed682dcb098f47025932fcef59fd.ctex::
+dialogue-box-borders.png::CompressedTexture2D/CompressedTexture2D::211662627332464897::1745699915::1745700101::1::::<><><>0<>0<>7c8724e3b066cedd394f989bfb038451<>res://.godot/imported/dialogue-box-borders.png-a79ca5cdde8febd5b0a1215c2c1311b6.ctex::
+textbox.gd::GDScript/GDScript::2860747373811725707::1745699915::0::1::::<>CanvasLayer<><>0<>0<><>::
+textbox.tscn::PackedScene/PackedScene::4184392301936081571::1745703609::0::1::::<><><>0<>0<><>::uid://bg01ddr6d18ol::::res://objetos/dialogue-box/textbox.gd<>uid://deliqigmobrou::::res://fonts/BodgeR.ttf<>uid://c4dccblywo86l::::res://objetos/dialogue-box/dialogue-box-borders-4x.png
+::res://objetos/interfas/::1745702929
+::res://objetos/interfas/battel/::1745778645
+Fight.tscn::PackedScene::8338944037331043758::1745778645::0::1::::<><><>0<>0<><>::uid://c4dccblywo86l::::res://objetos/dialogue-box/dialogue-box-borders-4x.png
+::res://objetos/items/::1742745391
+::res://objetos/items/bullet/::1745776526
+bullet.gd::GDScript/GDScript::8618579253449038382::1744240609::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bullet.tscn::PackedScene/PackedScene::6990698798113841915::1745776526::0::1::::<><><>0<>0<><>::uid://du150gy0qggnm::::res://objetos/items/bullet/bullet.gd<>uid://bv3kv31qownnj::::res://sprites/items/Blue_circle.webp
+::res://sprites/::1745776647
+::res://sprites/Backgrounds/::1745776653
+placeholderBG.png::CompressedTexture2D/CompressedTexture2D::6310161716210413953::1745699915::1745776653::1::::<><><>0<>0<>f67cf51dd20c214181cd0a8718349cb2<>res://.godot/imported/placeholderBG.png-69c04d18527dea405fd275099d733796.ctex::
+::res://sprites/characters/::1745776553
+::res://sprites/characters/EvilNpcs/::1745778716
+evilNpc.jpeg::CompressedTexture2D::4687265848426351193::1742491819::1745778716::1::::<><><>0<>0<>eac655af4cb920b654097341cd2efbae<>res://.godot/imported/evilNpc.jpeg-04a06c46d75909e1d65d411d66be2a6d.ctex::
+shooter.png::CompressedTexture2D/CompressedTexture2D::5257748178427980451::1742566885::1745776553::1::::<><><>0<>0<>03123965b9c2c702f6a1a40e47166f74<>res://.godot/imported/shooter.png-ee07dff9999340da5d8029b21c6716db.ctex::
+::res://sprites/characters/rico/::1745776514
+placeholderRico.png::CompressedTexture2D/CompressedTexture2D::6065579622856263829::1745699915::1745776514::1::::<><><>0<>0<>3a5bdf1ba37ed60005acd7aae12026f1<>res://.godot/imported/placeholderRico.png-1063eb1b77371f0525bbc219ea9ca58f.ctex::
+SpriteRico.png::CompressedTexture2D/CompressedTexture2D::4827902026659364601::1745699915::1745776514::1::::<><><>0<>0<>035f7cfefff7fc49eae5e00729e0877c<>res://.godot/imported/SpriteRico.png-ef53b38f6411171add5ad8b4724e5639.ctex::
+::res://sprites/items/::1745776527
+Blue_circle.webp::CompressedTexture2D/CompressedTexture2D::3918835160370396807::1742742211::1745776527::1::::<><><>0<>0<>7f7110ec7acee5dbe61d6050a30c0775<>res://.godot/imported/Blue_circle.webp-ddfe631254193dc10bd1281f444692d5.ctex::
+::res://sprites/menu/::1745700101
+buttons.jpg::CompressedTexture2D/CompressedTexture2D::7641846639272603364::1745699915::1745700101::1::::<><><>0<>0<>c32b20caa7e2b4557f2edb7a17f5d157<>res://.godot/imported/buttons.jpg-c61eeaea2a8839002e27e2fc3b98e3a8.ctex::
+::res://sprites/mundo 0/::1745700101
+5.png::CompressedTexture2D/CompressedTexture2D::8090557880663645850::1742491819::1742491902::1::::<><><>0<>0<>302779f9793785b0a5b65ddf6a3d917a<>res://.godot/imported/5.png-22ccc776ebbe2b0b165fa1d205c98a83.ctex::
+mapa.jpg::CompressedTexture2D/CompressedTexture2D::2224181469466052466::1745699915::1745700101::1::::<><><>0<>0<>877ec30698808c65ff037822ec75a39f<>res://.godot/imported/mapa.jpg-94bc05407029059f870169b8a478418c.ctex::
+::res://sprites/Transitions/::1745700101
+Battel_transition.jpeg::CompressedTexture2D/CompressedTexture2D::532485252195296788::1745699915::1745700101::1::::<><><>0<>0<>c34d53e1514d485f23e058d11fe493aa<>res://.godot/imported/Battel_transition.jpeg-269d10ee0417ca8a75320c5d7e201631.ctex::
+Pokémon Encounter Transition Green Screen.ogv::VideoStreamTheora/VideoStreamTheora::2767741790684675721::1745699915::0::1::::<><><>0<>0<><>::

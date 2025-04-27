@@ -1,7 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://c6ul110xy5bv4"]
 
 [ext_resource type="Script" uid="uid://du150gy0qggnm" path="res://objetos/items/bullet/bullet.gd" id="1_gaatl"]
-[ext_resource type="Texture2D" uid="uid://bv3kv31qownnj" path="res://sprites/characters/mundo 0/items/Blue_circle.webp" id="2_y107f"]
+[ext_resource type="Texture2D" uid="uid://bv3kv31qownnj" path="res://sprites/items/Blue_circle.webp" id="2_y107f"]
+
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4esww"]
 radius = 10.439

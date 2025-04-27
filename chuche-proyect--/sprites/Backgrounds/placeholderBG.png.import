@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csohhe8sycg02"
-path="res://.godot/imported/placeholderRico.png-722670d86f4c2005e34b0c9d032d7875.ctex"
+uid="uid://cv5xpaojs8ebh"
+path="res://.godot/imported/placeholderBG.png-69c04d18527dea405fd275099d733796.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://objetos/characters/rico/placeholderRico.png"
-dest_files=["res://.godot/imported/placeholderRico.png-722670d86f4c2005e34b0c9d032d7875.ctex"]
+source_file="res://sprites/Backgrounds/placeholderBG.png"
+dest_files=["res://.godot/imported/placeholderBG.png-69c04d18527dea405fd275099d733796.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://rk6tkiihhapc"]
 
 [ext_resource type="Script" uid="uid://tu8h1mkwyruk" path="res://objetos/characters/evilNpc/evilNPC.gd" id="1_i2cga"]
-[ext_resource type="Texture2D" uid="uid://b71st307vtk1v" path="res://sprites/characters/mundo 0/evil godot.jpeg" id="2_rbien"]
+[ext_resource type="Texture2D" uid="uid://b71st307vtk1v" path="res://sprites/characters/EvilNpcs/evilNpc.jpeg" id="2_rbien"]
 
 [sub_resource type="Animation" id="Animation_rjjjd"]
 resource_name = "attack"
