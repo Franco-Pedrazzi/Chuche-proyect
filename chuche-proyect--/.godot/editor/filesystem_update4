@@ -1,12 +1,9 @@
-res://objetos/characters/evilNpc/evilGodottscn.tscn
-res://objetos/characters/evilNpc/evilNPC.gd
-res://mundos/Batalla/battalla.gd
+res://mundos/Batalla/Battalla.tscn
+res://objetos/interfas/battel/fight.gd
 res://mundos/mundo guiso/nivel_0.tscn
 res://objetos/characters/rico/rico.tscn
-res://mundos/Batalla/Battalla.tscn
+res://objetos/characters/evilNpc/evilGodottscn.tscn
 res://objetos/interfas/battel/Fight.tscn
-res://Global/Global.gd
-res://Global/Global_ToFight.gd
-res://mundos/Batalla/buttons.gd
-res://objetos/interfas/battel/fight.gd
 res://objetos/dialogue-box/textbox.tscn
+res://mundos/Batalla/buttons.gd
+res://Global/Global_ToFight.gd

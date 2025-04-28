@@ -1,15 +1,24 @@
 extends Node2D
-var Attacks= Global_ToFight.PlayersAttacks
-@onready var MarginCner=$TextboxContainer/MarginContainer
+@export var ActionName=""
+var Actions
+@onready var OptionsConteiner=$TextboxContainer/MarginContainer/OptionsConteiner
 var count=0
 func _ready() -> void:
-	for attack in Attacks:
-		print(count*75-75)
+	Actions= Global_ToFight[ActionName]
+	for action in Actions:
 		var button=Label.new()
-		button.text=attack
-		button.position=Vector2i(10,count*75-75)
-		MarginCner.add_child(button)
+		button.text=action
+		var font = load("res://fonts/BodgeR.ttf")
+		button.add_theme_font_override("font", font)
+		button.add_theme_font_size_override("font_size", 20)
+		button.position=Vector2i(10,count*100)
+		if count==0:
+			button.add_theme_color_override("font_color", Color(255,255,0,255))
+		
+		OptionsConteiner.add_child(button)
 		count+=1
+		
+
 	
 		
 		

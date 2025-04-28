@@ -1,10 +1,11 @@
+VBoxContainer
+HBoxContainer
 Label
 AnimationPlayer
 CanvasLayer
 ColorRect
 Control
 AnimatedSprite2D
-HBoxContainer
 Panel
 MarginContainer
 CollisionShape2D

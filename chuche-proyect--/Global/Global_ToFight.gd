@@ -16,3 +16,15 @@ var PlayersAttacks={
 	"Kick":20,
 	"Spoon":30
 }
+
+var PlayersActions={
+	"Hablar":10,
+	"Putear":20,
+	"Nicolo":30
+}
+
+var PlayersItems={
+	"Lapiz":["nose",12],
+	"Cuchara":["cucharear",1],
+	"queso":["curar",0.2]
+}
