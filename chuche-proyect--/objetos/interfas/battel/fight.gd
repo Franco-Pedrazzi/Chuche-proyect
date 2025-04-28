@@ -14,7 +14,8 @@ func _ready() -> void:
 		button.position=Vector2i(10,count*100)
 		if count==0:
 			button.add_theme_color_override("font_color", Color(255,255,0,255))
-		
+		else:
+			button.add_theme_color_override("font_color", Color(255,255,255,255))
 		OptionsConteiner.add_child(button)
 		count+=1
 		

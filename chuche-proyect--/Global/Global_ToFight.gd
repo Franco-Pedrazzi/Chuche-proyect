@@ -24,7 +24,7 @@ var PlayersActions={
 }
 
 var PlayersItems={
-	"Lapiz":["nose",12],
-	"Cuchara":["cucharear",1],
-	"queso":["curar",0.2]
+	"Lapiz":["escribe","descripcion",12],
+	"Cuchara":["cucharear","descripcion",1],
+	"queso":["curar","descripcion",0.2]
 }

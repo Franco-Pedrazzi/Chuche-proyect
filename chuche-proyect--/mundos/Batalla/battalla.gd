@@ -10,5 +10,7 @@ func _ready() -> void:
 	Enemy.position=Vector2i(350,120)
 	Enemy.scale.x=0.5
 	Enemy.scale.y=0.5
+	Enemy.set_script("res://mundos/Batalla/Enemys_brain.gd")
+	print(Enemy.get_script())
 	add_child(Enemy)
 	
