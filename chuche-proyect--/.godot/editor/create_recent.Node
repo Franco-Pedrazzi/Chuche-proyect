@@ -1,9 +1,9 @@
+ColorRect
 VBoxContainer
 HBoxContainer
 Label
 AnimationPlayer
 CanvasLayer
-ColorRect
 Control
 AnimatedSprite2D
 Panel
@@ -12,4 +12,3 @@ CollisionShape2D
 Area2D
 TileMapLayer
 TileMap
-CharacterBody2D

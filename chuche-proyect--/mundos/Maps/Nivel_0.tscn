@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://3t484pnhsnsy"]
+
+[ext_resource type="Texture2D" uid="uid://cv5xpaojs8ebh" path="res://sprites/Backgrounds/placeholderBG.png" id="1_xylr7"]
+[ext_resource type="PackedScene" uid="uid://cpri1ktmj56ec" path="res://objetos/characters/rico/rico.tscn" id="2_rvvol"]
+[ext_resource type="PackedScene" uid="uid://rk6tkiihhapc" path="res://objetos/characters/evilNpc/evilGodottscn.tscn" id="3_6o1xe"]
+
+[node name="Nivel_0" type="Node2D"]
+
+[node name="PlaceholderBg" type="Sprite2D" parent="."]
+position = Vector2(825, 397)
+texture = ExtResource("1_xylr7")
+
+[node name="Mateo" parent="." instance=ExtResource("2_rvvol")]
+position = Vector2(187, 347)
+
+[node name="EvilGodot3" parent="." instance=ExtResource("3_6o1xe")]
+position = Vector2(-415, 323)
+
+[node name="EvilGodot2" parent="." instance=ExtResource("3_6o1xe")]
+position = Vector2(-190, 75)
+
+[node name="EvilGodot" parent="." instance=ExtResource("3_6o1xe")]
+position = Vector2(-12, 341)

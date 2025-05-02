@@ -4,10 +4,14 @@ extends CharacterBody2D
 
 #@onready var animations = $AnimationPlayer
 @onready var anim = $AnimatedSprite2D
-var SPEED = 100
+const ConstSPEED = 100
+var SPEED = ConstSPEED
 var currentDir = "none"
-
-
+@export var die=false
+func _ready() -> void:
+	if GameState.player_position!=Vector2(-100000000000,0):
+		position=GameState.player_position
+		GameState.player_position=Vector2(-100000000000,0)
 func _physics_process(delta):
 	
 	#Recibe el input del jugador y puede ser 1 (derecha), -1 (izquierda) o null
@@ -47,6 +51,7 @@ func _physics_process(delta):
 	move_and_slide()
 
 func play_anim():
+	SPEED=ConstSPEED
 	if currentDir == "down":
 		anim.play("walk_down")
 	if currentDir == "up":
@@ -55,14 +60,20 @@ func play_anim():
 		anim.play("walk_right")
 	if currentDir == "left":
 		anim.play("walk_left")
+		
 	if currentDir == "down-right":
+		SPEED=sqrt((ConstSPEED**2)/2)
 		anim.play("walk_down_right")
 	if currentDir == "down-left":
+		SPEED=sqrt((ConstSPEED**2)/2)
 		anim.play("walk_down_left")
 	if currentDir == "up-right":
+		SPEED=sqrt((ConstSPEED**2)/2)
 		anim.play("walk_up_right")
 	if currentDir == "up-left":
+		SPEED=sqrt((ConstSPEED**2)/2)
 		anim.play("walk_up_left")
+		
 	if currentDir == "none":
 		anim.pause()
 

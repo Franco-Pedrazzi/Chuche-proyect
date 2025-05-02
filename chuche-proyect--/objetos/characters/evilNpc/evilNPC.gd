@@ -14,7 +14,8 @@ var isMoving = true
 var move = Vector2.ZERO
 var stop=false
 func _physics_process(delta: float) -> void:
-	
+	if self.name in GameState.mapas_estado[get_parent().name].enemigos_derrotados:
+		self.queue_free()
 	#Si tiene su objetivo definido, va a caminar en direccion a este
 	if targetPlayer != null and esperar == false and isMoving:
 		move=position.direction_to(targetPlayer.position)
@@ -36,7 +37,10 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 			targetPlayer = body
 			animations.play("walk")
 func _on_area_2d_2_body_entered(body):
-	Global_ToFight.EnemyName="evilNpc.jpeg"
+	Global_ToFight.EnemyName=["evilNpc.jpeg",self.name]
+	GameState.mapa_actual=[get_tree().current_scene.scene_file_path,get_parent().name]
+	
+	GameState.player_position=targetPlayer.position
 	get_tree().change_scene_to_file("res://mundos/Batalla/Battalla.tscn")
 
 func _on_interaction_area_body_exited(body: Node2D) -> void:

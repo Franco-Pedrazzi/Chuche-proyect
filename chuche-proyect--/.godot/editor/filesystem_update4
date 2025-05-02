@@ -1,8 +1,13 @@
 res://mundos/mundo guiso/nivel_0.tscn
-res://objetos/interfas/battel/fight.gd
+res://mundos/Batalla/Enemys_brain.gd
+res://Global/Game_state.gd
+res://objetos/characters/evilNpc/evilNPC.gd
 res://objetos/characters/rico/rico.tscn
 res://objetos/dialogue-box/textbox.tscn
 res://mundos/Batalla/Battalla.tscn
-res://Global/Global_ToFight.gd
 res://mundos/Batalla/battalla.gd
-res://mundos/Batalla/Enemys_brain.gd
+res://Global/Global_ToFight.gd
+res://mundos/Maps/nivel_0.tscn
+res://mundos/Maps/Nivel_0.tscn
+res://objetos/characters/rico/rico.gd
+res://mundos/Batalla/buttons.gd

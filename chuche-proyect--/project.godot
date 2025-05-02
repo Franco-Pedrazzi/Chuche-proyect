@@ -19,6 +19,7 @@ config/icon="uid://tlljthmgvts4"
 [autoload]
 
 Global_ToFight="*res://Global/Global_ToFight.gd"
+GameState="*res://Global/Game_state.gd"
 
 [input]
 

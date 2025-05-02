@@ -1,13 +1,20 @@
 extends Node
 
 #Enemy data
-var EnemyName="evilNpc"
+var EnemyName=[]
 
-var evilNpcLive=100
-var evilNpcAttacks={
-	"Punch":10,
-	"Kick":20
+var EnemysStats={
+	"evilNpc":{
+		"Live":100,
+ 		"Attacks":{
+			"Punch":10,
+			"Kick":20
+				}
+	}
+	
+	
 }
+
 
 #Player data
 var PlayerLive=100
