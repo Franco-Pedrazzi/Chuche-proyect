@@ -13,8 +13,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if parent.turn=="Enemy":
 		parent.EnemyLive-=parent.PlayerAttack.damage
-		parent.turn="Player"
-		print("EnemyLive: ",parent.EnemyLive)
+		parent.turn="EnemyAttack"
 		await get_tree().create_timer(0.5).timeout
 		if parent.EnemyLive<=0:
 			var mapName=GameState.mapa_actual[1]
@@ -22,5 +21,5 @@ func _process(delta: float) -> void:
 			Global_ToFight.EnemyName=[]
 			get_tree().change_scene_to_file(GameState.mapa_actual[0])
 		
-		parent.EnemytAttack=Global_ToFight.EnemysStats[Name]["Attacks"][Attacks[randi_range(0,len(Attacks)-1)]]
-	
+		parent.EnemytAttack=Global_ToFight.EnemysStats[Name]["Attacks"][Attacks[randi_range(0,len(Attacks)-1)]].damage
+		parent.turn="Player"

@@ -1,5 +1,6 @@
-res://mundos/Maps/habitacion.tscn
-res://objetos/characters/rico/rico.tscn
 res://mundos/Batalla/Battalla.tscn
-res://objetos/dialogue-box/textbox.tscn
+res://mundos/Batalla/buttons.gd
 res://mundos/Maps/Nivel_0.tscn
+res://objetos/dialogue-box/textbox.tscn
+res://objetos/characters/rico/rico.tscn
+res://mundos/Maps/habitacion.tscn

@@ -2,6 +2,7 @@ extends Node2D
 @onready var cutscene=$BattelTransition
 @onready var EnemyBarLive=$EnemyLive
 @onready var PlayerBarLive=$PlayerLive
+@onready var Player=$Rico
 var EnemyPath="res://sprites/characters/EvilNpcs/evilNpc"
 var Enemy= Sprite2D.new()
 var EnemyLive=100
@@ -26,3 +27,12 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	EnemyBarLive.size.x=EnemyLive
 	PlayerBarLive.size.x=Global_ToFight.PlayerLive
+	if turn=="Enemy":
+		Player.position=Vector2i(150,140)
+		Enemy.position=Vector2i(200,170)
+		
+	else:
+		Enemy.position=Vector2i(350,120)
+		Player.position=Vector2i(86.0,185)
+	print(Player.position)
+		

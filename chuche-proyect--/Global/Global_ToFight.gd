@@ -1,14 +1,18 @@
 extends Node
 
 #Enemy data
-var EnemyName=[]
-
+var EnemyName=["evilNpc.jpeg","EvilGodot"]
+var Attacks={
+	"Punch":["left","center","right"],
+	"Kick":["center","down"],
+	"Gun":["all"]
+		}
 var EnemysStats={
 	"evilNpc":{
 		"Live":100,
  		"Attacks":{
-			"Punch":10,
-			"Kick":20
+			"Punch":{"damage":10,"consecutiveAttacks":2},
+			"Kick":{"damage":20,"consecutiveAttacks":1}
 				}
 	}
 	
