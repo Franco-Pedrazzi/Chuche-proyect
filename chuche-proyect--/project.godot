@@ -18,8 +18,10 @@ config/icon="uid://tlljthmgvts4"
 
 [autoload]
 
-Global_ToFight="*res://Global/Global_ToFight.gd"
-GameState="*res://Global/Game_state.gd"
+Global_ToFight="*res://Scrips/Global/Global_ToFight.gd"
+GameState="*res://Scrips/Global/Game_state.gd"
+LoadEnemys="*res://Scrips/Loads/Load_Enemys.gd"
+LoadEnemysAttacks="*res://Scrips/Loads/Load_Enemys_Attacks.gd"
 
 [display]
 

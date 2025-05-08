@@ -1,6 +1,14 @@
 res://mundos/Batalla/Battalla.tscn
-res://mundos/Batalla/buttons.gd
+res://Global/Classes/Attacks.gd
+res://Global/Classes/Characters.gd
+res://Global/Global_ToFight.gd
 res://mundos/Maps/Nivel_0.tscn
 res://objetos/dialogue-box/textbox.tscn
 res://objetos/characters/rico/rico.tscn
 res://mundos/Maps/habitacion.tscn
+res://Scrips/Global/Global_ToFight.gd
+res://Scrips/Loads/Load_Enemys_Attacks.gd
+res://Scrips/Loads/Load_Enemys.gd
+res://mundos/Batalla/Enemys_brain.gd
+res://mundos/Batalla/battalla.gd
+res://mundos/Batalla/buttons.gd

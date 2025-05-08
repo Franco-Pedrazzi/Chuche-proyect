@@ -15,7 +15,6 @@ func CreateMenu(Action):
 	Options.scale.x=0.5
 	Options.scale.y=0.5
 	Options.ActionName=Action
-	Options.z_index(1)
 	add_child(Options)
 
 func _ready() -> void:

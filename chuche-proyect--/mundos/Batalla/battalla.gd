@@ -22,7 +22,7 @@ func _ready() -> void:
 	Enemy.scale.y=0.5
 	Enemy.set_script(preload("res://mundos/Batalla/Enemys_brain.gd"))
 	add_child(Enemy)
-	EnemyLive=Global_ToFight.EnemysStats[Global_ToFight.EnemyName[0].split(".")[0]].Live
+	EnemyLive=LoadEnemys[Global_ToFight.EnemyName[0].split(".")[0]].life
 	
 func _process(delta: float) -> void:
 	EnemyBarLive.size.x=EnemyLive
@@ -34,5 +34,4 @@ func _process(delta: float) -> void:
 	else:
 		Enemy.position=Vector2i(350,120)
 		Player.position=Vector2i(86.0,185)
-	print(Player.position)
 		
