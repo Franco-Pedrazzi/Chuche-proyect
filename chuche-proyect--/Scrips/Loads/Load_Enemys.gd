@@ -5,8 +5,8 @@ func _ready():
 	evilNpc.name = "evilNpc"
 	evilNpc.life = 100
 	evilNpc.attacks = {
-		"Punch": LoadEnemysAttacks.punch,
-		"Kick": LoadEnemysAttacks.kick
+		"punch": LoadEnemysAttacks.punch,
+		"kick": LoadEnemysAttacks.kick
 	}
 	evilNpc.abilitys = {}
 

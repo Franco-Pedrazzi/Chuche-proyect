@@ -8,10 +8,12 @@ var Enemy= Sprite2D.new()
 var EnemyLive=100
 #player
 @export var PlayerAttack=0
+var areas=["center","down"]
 #enemy
-@export var EnemytAttack=0
+@export var EnemytAttack=[""]
 #General
 @export var turn="Player"
+
 func _ready() -> void:
 	await get_tree().create_timer(0.5).timeout
 	cutscene.queue_free()
@@ -35,3 +37,7 @@ func _process(delta: float) -> void:
 		Enemy.position=Vector2i(350,120)
 		Player.position=Vector2i(86.0,185)
 		
+	if	turn == "EnemyAttack":
+		pass
+	if 	Global_ToFight.PlayerLive<=0:
+		print("MATEO AAAAA")

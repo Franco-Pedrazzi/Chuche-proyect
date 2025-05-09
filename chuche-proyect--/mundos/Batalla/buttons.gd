@@ -32,12 +32,6 @@ func _ready() -> void:
 		MenusButtons[3].append({"name":button,"damage":0,"Effec":Global_ToFight.PlayersItems[button]})
 
 func _physics_process(delta: float) -> void:
-	if parent.EnemytAttack != 0:
-		Global_ToFight.PlayerLive-=parent.EnemytAttack
-		parent.EnemytAttack=0
-	if 	Global_ToFight.PlayerLive<=0:
-		print("MATEO AAAAA")
-		
 	if Input.is_action_just_pressed(Key[0]) and parent.turn=="Player":
 		directionX=1
 	if Input.is_action_just_pressed(Key[1]) and parent.turn=="Player":
